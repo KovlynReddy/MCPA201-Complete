@@ -1,0 +1,241 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: #fff;
+}
+
+/* Main styles */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Home page styles */
+.hero {
+  background-image: url('hero.jpg');
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* JDM cars sales page styles */
+.cars {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.car {
+  width: calc(33.33% - 20px);
+  margin-bottom: 40px;
+  background-color: #f7f7f7;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.car img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.car h2 {
+  font-size: 24px;
+  margin: 20px;
+}
+
+.car p {
+  font-size: 16px;
+  margin: 20px;
+  line-height: 1.5;
+}
+
+/* German cars sales page styles */
+.german-cars {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  margin-top: 40px;
+}
+
+.german-car {
+  background-color: #f7f7f7;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.german-car img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.german-car h2 {
+  font-size: 24px;
+  margin: 20px;
+}
+
+.german-car p {
+  font-size: 16px;
+  margin: 20px;
+  line-height: 1.5;
+}
+
+/* About us page styles */
+.about {
+  margin-top: 40px;
+}
+
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about p {font-size: 18px;
+line-height: 1.5;
+margin-bottom: 20px;
+}
+
+/* Contact us page styles */
+.contact-form {
+margin-top: 40px;
+max-width: 600px;
+}
+
+.contact-form label {
+display: block;
+margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+.contact-form button {
+background-color: #333;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.contact-info {
+margin-top: 40px;
+}
+
+.contact-info ul li {
+margin-bottom: 10px;
+}
+
+/* Crate motor sales page styles */
+.crate-motors {
+margin-top: 40px;
+}
+
+.crate-motors table {
+width: 100%;
+border-collapse: collapse;
+}
+
+.crate-motors th,
+.crate-motors td {
+padding: 10px;
+text-align: center;
+border: 1px solid #ccc;
+}
+
+.crate-motors th {
+background-color: #333;
+color: #fff;
+}
+
+.crate-motors tr:nth-child(even) {
+background-color: #f7f7f7;
+}
+
+.crate-motors tr:hover {
+background-color: #ddd;
+}
+
+/* Footer styles */
+footer {
+background-color: #333;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+
+footer p {
+margin: 0;
+}
+
+footer a {
+color: #fff;
+text-decoration: underline;
+}
